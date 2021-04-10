@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            	<li><a href="#hometop"><img src="logo.png" alt="lzoshan logo" width="50" height="50"></a></li>
+                <li><a href="#home">Home</a></li>
+		        <li><a href="#about">About</a></li>
+	            <li><a href="#works">Works</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	        </ul>
+        </nav>
+    </header>
+    <main>
+    	<img src="illustration.png" alt="illustration" width="300" height="150">
+        <p>Hi there,</p>
+        <h1>I’m lzoshan</h1>
+        <p>Pronunciation: /ˈrɒʃən/</p>
+        <p>
+            A high school senior at WhiteHouse SS, Khumaltar with experience in backend web application development using python and django framework. I'm passionate about Technology, Art and Literature. I love things simple and organized.
+        </p>
+        <button type="button">Hire Me</button>
+        <button type="button">Download Resume</button>
+    </main>
+
+    <!-- ABOUT -->
+	<hr>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Tech + Art + Philosophy = Me
+        </p>
+        <p>
+            I am fueled by my passion for new technologies and art. I love to explore new things and learn from it. Robotics, photography, energy, philosophy, space and artificial intelligence are a few examples of my exploration. As I grow up, I am willing to gain more knowledge in each of these fields.
+        </p>
+        <p>
+            I dream of becoming a successful tech entrepreneur (not an asshole but a good one) and help solving real life world issues rather than exaggerating "making the world a better place".
+        </p>
+        <p>
+            Other than learning, I also like listening to music. I mostly listen to electro-pop, chill-step and indie. Painting is my another hobby. I find nature and space inspiring, so most of my paintings are related to these two subjects.
+        </p>
+        <p>
+            Three words that describe me: Chill, Creative & Curious
+        </p>
+
+        <h3>Work Experience</h3>
+
+        <h4>Urban SEO Center</h4>
+        <aside>Intern | March 2020 - Present</aside>
+        <p>
+            A digital marketing agency based in New York. I was working as a marketing intern and part of my job was to manage clients' website and design prototypes for new products. However, due to coronavirus I couldn't complete the whole project.
+        </p>
+
+        <h4>The Glass Files</h4>
+        <aside>Intern | August 2018 - August 2019</aside>
+        <p>
+            A software company where I worked with the software engineering team. My work included software testing, design thinking and fixing minor bugs.
+        </p>
+
+        <h3>Extra-Curricular Activities</h3>
+
+        <h4>BASE Robotics</h4>
+        <aside>Co-Captain</aside>
+        <p>
+            Experience in architect design, 3d rendering, and software integration as well as team management. Despite being new to robotics, we made it to super-qualifier tournament in FTC competition twice.
+        </p>
+
+        <h4>Hack & Enterprise Club</h4>
+        <aside>Captain</aside>
+        <p>
+            Attended more than 25 programming events in last 2 years. Also led two teams to the final round in CS4ALL Hackathon.
+        </p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Vue</li>
+            <li>Bootstrap</li>
+            <li>Django</li>
+        </ul>
+
+        <h3>Learning Experience</h3>
+        <p>
+            I try my best to get out of my comfort zone and continue my exploration. Over the past few years I had some great opportunities to be a tiny part of some organizations, companies & schools by attending their events or participating in their competitions.
+        </p>
+	        <img src="300x150.png" alt="event one" height="" width="">
+		    <figcaption>
+	            <h5>Rhinobotix | Team 8200</h5>
+                <p>
+                    Trying to fix our robot's brick collection system after our second match.
+                </p>
+            </figcaption>
+	
+        <h3>Quotes</h3>
+        <p>
+            Throughout my journey of trying to figure out the world as a kid, I met so many awesome people who taught me valuable lessons. Their advice had a huge impact on my learning and thinking ability. Below are some quotes that made me see the world from a different perspective from conversations I had with a few of those people:
+        </p>
+
+        <blockquote>
+            <p>
+                “Promise to never tear leaves off of trees.”
+            </p>
+            - Ashraf
+        </blockquote>
+	
+        <blockquote>
+            <p>
+                “Learn as much as you can... We are people of color, so we have to go through a lot of discrimination.”
+            </p>
+            - Nathalia Griffith
+        </blockquote>
+
+        <p>
+            I found a much deeper meaning in these quotes than probably what they intended to mean. But I love being philosophical.
+	    </p>
+
+    </section>
+    <hr>
+	<!-- WORKS -->
+    <section id="works">
+    </section>
+	<hr>
+    <!-- CONTACT -->
+    <section id="contact">
+	<h2>Let's Talk</h2>
+    <p>
+        Have any questions? Feel free to ask.
+    <p>
+	<form>
+        <label for="">Full Name:</label>
+        <input type="text" name="" id="" placeholder="Ram Gurung">
+        <br>
+        	
+        <label for="">Email address:</label>
+        <input type="email" name="" id="" placeholder="name@domain.extension">
+        <br>
+	
+	    <label for="">Message:</label>
+        <textarea rows="" cols="" name="comment" placeholder="I've got a plan!"></textarea>
+        <br/>
+        
+        <button type="submit" form="form1" value="Submit">Send</button>
+    </form>
+    <p>
+        Thank you, see you soon
+    </p>
+    </section>
+    <hr>
+    <!-- FOOTER -->
+	<footer>
+        <h6>Find me on:</h6>
+        <ul>
+            <li><a href="">LinkedIn</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">GitHub</a></li>
+            <li><a href="">YouTube</a></li>
+            <li><a href="">Behance</a></li>
+            <li><a href="">Dribbble</a></li>
+        </ul>
+        <small>
+            &copy; Copyright 2020, lZoshan™. All Rights Reserved.
+        </small>
+    </footer>
+    
+</body>
+</html>
